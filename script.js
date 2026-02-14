@@ -6,7 +6,7 @@ buttons.forEach(button => {
     button.addEventListener('click', () => {
         const timeOfDay = button.getAttribute('data-set-time');
         if (timeOfDay === 'Morning') {
-            window.location.href = 'homepage.html';
+            window.location.href = 'index.html';
         } else if (timeOfDay === 'Afternoon') {
             window.location.href = 'about-me.html';
         } else if (timeOfDay === 'Evening') {
